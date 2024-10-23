@@ -25,10 +25,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, imageUrl 
 
 const ProjectPortfolio: React.FC = () => {
   const projects: ProjectCardProps[] = [
-    { title: "CRUD", description: "Making a 'Create Read Update Delete' Function using PHP and MySQL ", imageUrl: "/images/project_1.png" },
-    { title: "Web Designing", description: "Making a Landing Page for Orphanage Website using HTML, CSS, JavaScript and Bootstrap", imageUrl: "/images/project_2.png" },
-    { title: "Login/Register", description: "Making a Login/Register Page for Web using PHP and MySQL", imageUrl: "/images/project_3.png" },
-    { title: "Web Designing", description: "Making a Landing Page with Dark Mode Function and the theme is to choose a random industry using HTML, CSS, JavaScript and Bootstrap ", imageUrl: "/images/project_4.png" },
+    { title: "CRUD", description: "Making a 'Create Read Update Delete' Function using PHP and MySQL ", imageUrl: "/images/Project_1.png" },
+    { title: "Web Designing", description: "Making a Landing Page for Orphanage Website using HTML, CSS, JavaScript and Bootstrap", imageUrl: "/images/Project_2.png" },
+    { title: "Login/Register", description: "Making a Login/Register Page for Web using PHP and MySQL", imageUrl: "/images/Project_3.png" },
+    { title: "Web Designing", description: "Making a Landing Page with Dark Mode Function and the theme is to choose a random industry using HTML, CSS, JavaScript and Bootstrap ", imageUrl: "/images/Project_4.png" },
   ];
 
   return (
