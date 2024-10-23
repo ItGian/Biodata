@@ -6,15 +6,18 @@ import Welcome from "./components/Welcome";
 
 
 
+
+
 export default function Home() {
   return (
    <>
+   <div>
   <HeroSection></HeroSection>
   <BioData></BioData>
   <Welcome></Welcome>
   <TimeLine></TimeLine>
   <ProjectPortfolio></ProjectPortfolio>
-  
+  </div>
    </>
   );
 }

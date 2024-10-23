@@ -1,15 +1,75 @@
 const Welcome = () => {
     return (
-        <section className="bg-white dark:bg-gray-900">
+        <section className="bg-gray-300 dark:bg-gray-900">
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 flex justify-center items-center min-h-screen">
           <div className="max-w-screen-lg text-gray-500 sm:text-lg dark:text-gray-400 text-center">
-            <h2 className="mb-4 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">Powering innovation at <span className="font-extrabold">200,000+</span> companies worldwide</h2>
-            <p className="mb-4 font-light">Track work across the enterprise through an open, collaborative platform. Link issues across Jira and ingest data from other software development tools, so your IT support and operations teams have richer contextual information to rapidly respond to requests, incidents, and changes.</p>
-            <p className="mb-4 font-medium">Deliver great service experiences fast - without the complexity of traditional ITSM solutions.Accelerate critical development work, eliminate toil, and deploy changes with ease.</p>
-            <a href="#" className="inline-flex items-center justify-center font-medium text-primary-600 hover:text-primary-800 dark:text-primary-500 dark:hover:text-primary-700">
-              Learn more
-              <svg className="ml-1 w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd"></path></svg>
-            </a>
+            <h2 className="mb-4 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">My SoftSkill And HardSkill</h2>
+            <br></br>
+            
+
+<div className="relative overflow-x-auto shadow-2xl sm:rounded-lg text-center">
+    <table className="w-full text-sm text-center rtl:text-right text-gray-500 dark:text-gray-400">
+        <thead className="text-xs text-gray-200 uppercase dark:text-gray-800">
+            <tr>
+                <th scope="col" className="px-6 py-3 bg-gray-600 dark:bg-gray-400">
+                    SoftSkill
+                </th>
+                <th scope="col" className="px-6 py-3 bg-gray-600 dark:bg-gray-400">
+                    HardSkill
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr className="border-b border-gray-400 dark:border-gray-700">
+                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-200 dark:text-white dark:bg-gray-800">
+                    Adapt
+                </th>
+                <td className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-200 dark:text-white dark:bg-gray-800">
+                    English
+                </td>
+            </tr>
+            <tr className="border-b border-gray-400 dark:border-gray-700">
+                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-200 dark:text-white dark:bg-gray-800">
+                    Teamwork
+                </th>
+                <td className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-200 dark:text-white dark:bg-gray-800">
+                    Public Speaker
+                </td>
+            </tr>
+            <tr className="border-b border-gray-400 dark:border-gray-700">
+                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-200 dark:text-white dark:bg-gray-800">
+                    Fast learner
+                </th>
+                <td className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-200 dark:text-white dark:bg-gray-800">
+                    HTML
+                </td>
+            </tr>
+            <tr className="border-b border-gray-400 dark:border-gray-700">
+                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-200 dark:text-white dark:bg-gray-800">
+               Comunication
+                </th>
+                <td className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-200 dark:text-white dark:bg-gray-800">
+                    CSS
+                </td>
+            </tr>
+            <tr className="border-b border-gray-400 dark:border-gray-700">
+                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-200 dark:text-white dark:bg-gray-800">
+                </th>
+                <td className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-200 dark:text-white dark:bg-gray-800">
+                    Basic PHP
+                </td>
+            </tr>
+            <tr className="border-b border-gray-200 dark:border-gray-700">
+                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-200 dark:text-white dark:bg-gray-800">
+                </th>
+                <td className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-200 dark:text-white dark:bg-gray-800">
+                    Basic JS
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
           </div>
         </div>
       </section>
