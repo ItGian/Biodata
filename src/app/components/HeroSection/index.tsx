@@ -38,7 +38,7 @@ const HeroSection = () => {
         <div className="hidden lg:block mt-8 lg:mt-0 shadow-2xl">
           <Image
             className="w-full rounded-lg"
-            src="/images/jiyoon.png"
+            src="/images/Myself_1.jpg"
             alt="Hero Image"
             width={500}
             height={500}

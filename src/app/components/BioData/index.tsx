@@ -10,14 +10,14 @@ const BioData = () => {
       
          <Image 
             className="w-full rounded-lg shadow-2xl"
-            src="/images/jiyoon.png"
+            src="/images/Myself_2.jpg"
             alt="office content 1"
             width={500}
             height={500}
           />
           <Image 
             className="mt-4 w-full lg:mt-10 rounded-lg shadow-2xl"
-            src="/images/jiyoon.png"
+            src="/images/Myself_3.jpg"
             alt="office content 2"
             width={500}
             height={500}
