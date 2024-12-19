@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import SpeedDial from "./components/SpeedDial";
 import { ThemeProvider } from './providers';
 
 
@@ -34,6 +35,8 @@ export default function RootLayout({
       >
         <ThemeProvider>
         <Header></Header>
+        <SpeedDial>
+        </SpeedDial>
         {children}
         <Footer></Footer>
         </ThemeProvider>
